@@ -1,0 +1,12 @@
+[package]
+name = "rpi-code"
+version = "0.1.0"
+authors = ["Benoit Eudier <benoit.eudier@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# reqwest = "0.9.2"
+hyper = "0.12.35"
+hyper-tls = {"version" = "0.3.2", "features" = ["vendored"]}
